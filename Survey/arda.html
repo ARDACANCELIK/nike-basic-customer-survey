@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="Nike Customer Satisfaction Survey " content="Nike Online Survey">
+    <meta name="arda celik">
+    <meta name="survey form,survey,study,customer satisfaction" content="html,css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <title> Nike Customer Satisfaction Survey </title>
+    </head>
+  <body>
+    <header>
+     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg" alt="nike logo">
+       <form id="survey-form"  action="">
+      <h1 id="title"> Nike Customer Satisfaction Survey </h1>
+      <p id="description">Your Feedback is Crucial, We want to be informed about your experience to take our products to a next level</p><br>
+       <div id="outer-form"> 
+     
+        <div class="info-group">
+        <div class="yazılar">
+            <label id="name-label" for="name">Full Name</label></div>
+          <div class="bosluklar"><input autofocus type="text" id="name" name="name" class="input-field" placeholder="Enter Your Name Please.. " required><br><br>
+           </div></div>
+          <div class="info-group"> 
+        <div class="yazılar">
+          <label id="email-label" for="email">Email</label></div>
+         <div class="bosluklar"> <input autofocus type="email" id="email" name="email" class="input-field" placeholder="Enter Your Email Please.. " required></div></div><br>
+          <div class="info-group"> 
+        <div class="yazılar">
+          <label id="number-label" for="age">Age</label></div>
+         <div class="bosluklar"> <input autofocus type="number" id="number" name="age" class="input-field" placeholder="Age" min="0" max="115">
+        </div></div><br>
+         <div class="info-group"> 
+            <div class="yazılar">
+          <div class="dropdown">
+            <label id="dropdown-label" for="gender">Gender</label></div></div>
+        <div class="bosluklar">  <select name="dropdown"  id="dropdown" class="dropdown">
+            <option disabled selected value> Gender </option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+            </select>
+          </div>
+            
+        </div>
+         
+           <br>
+         <div class="info-group">
+          <div id="row" class="radio-purchase">
+          <p id="strong-p"><strong>How often do you purchase our sport products</strong></p>
+            <input type="radio" id="radio1" name="purchase" value="annual">
+            <label for=radio1>Once in a year</label>
+            <input type="radio" id="radio2" name="purchase" value="monthly">
+            <label for=radio2>Once in a month</label>
+            <input type="radio" id="radio3" name="purchase" value="weekly">
+            <label for=radio3>Once in a week</label>
+          </div>
+            </div>
+          <br>
+          <br>
+          <div class="info-group">
+          <label id="question-label" for="learning"><strong>When do you wear your Nike mostly</strong></label><br><br>
+          <input type="checkbox" id="location1" name="walking" value="1" >
+          <label id="walking-label" for="location1">In Walking-low tempo activity</label>
+           <input type="checkbox" id="location2" name="running" value="2">
+          <label id="running-label" for="location2">In Running-low tempo activity</label>
+           <input type="checkbox" id="location3" name="basketball" value="3">
+          <label id="basketball-label" for="location3">Basketball activity</label>
+           <input type="checkbox" id="location4" name="football" value="4">
+          <label id="football-label" for="location4">Football activity</label>
+          <input type="text" id="location5" name="other" value="" placeholder="please specify">
+          <label id="other-label" for="location5">Other </label>
+        </div>
+          <br><br>
+         <div class="info-group">
+        <label id="sug" for="suggestions"><p><strong> Let us know about your further suggestions</strong> </p></label><br><br>
+          <textarea id="suggestions" name="suggestions" row="14" column="150" placeholder="Enter your suggestions"></textarea><br>
+           <button type="submit" id="submit" value="submit">Submit</submit></div>
+          </form>
+            </div>
+     
+        </body>
+    </html>
+  

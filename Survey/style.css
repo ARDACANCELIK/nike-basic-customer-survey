@@ -1,0 +1,74 @@
+body {
+  background: red;
+  opacity: 0.8;
+}
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+#description {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+#survey-form {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.yazılar {
+  width: 10%;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+}
+.bosluklar {
+  width: 10%;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 16px;
+}
+
+#outer-form {
+  border: solid;
+  padding: 20px;
+}
+
+#submit {
+  text-align: center;
+  width: 70px;
+  font-size: 0.87em;
+  height: 30px;
+  margin: 12px;
+  color: black;
+  border: 0px solid;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+#submit:hover {
+  background-color: #418ff2;
+}
+
+#suggestions {
+  width: 300px;
+  height: 100px;
+  color: blue;
+  background-color: #ea839a;
+  opacity: 0.9;
+  font-size: 16px;
+  font-type: Palatino Linotype;
+  font-weight: bold;
+  border-radius: 10px;
+}
