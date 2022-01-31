@@ -1,2 +1,2 @@
-Basic Nike Customer Survey 
+Basic Nike Customer Survey(Mobil Friendly) 
 using only html and CSS
