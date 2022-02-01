@@ -15,7 +15,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
+  width: 11%;
 }
 
 #survey-form {
@@ -42,7 +42,7 @@ img {
 
 #outer-form {
   border: solid;
-  padding: 20px;
+  padding: 19px;
 }
 
 #submit {
